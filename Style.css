@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.interface {
+    margin: 5px;
+    background-color: powderblue;
+    max-width: 450px;
+    border: 1px solid black;
+}
+
+.addTask {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.taskList {
+    min-height: 360px;
+}
+
+.task {
+    position: relative;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+.task.important {
+    background-color: greenyellow;
+}
+.close {
+    position: absolute;
+    top: 20%;
+    left: 95%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+}
